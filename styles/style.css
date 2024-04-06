@@ -247,3 +247,57 @@ input{
     width: 25px; /* Adjust the size of the icon */
     height: 25px;
   }
+
+  .problem-input {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+  }
+
+  .problem-header {
+    padding: 20px;
+    background-color: #F4E3C9;
+    margin: 20px;
+  }
+
+  .problem-text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #F2D5C0;
+    width: 100%;
+    padding: 12px;
+    margin-right: 20px;
+  }
+
+  .problem-submit-btn {
+    width: 25%;
+    height: 10%;
+  }
+
+  .textarea {
+    width: 100%;
+    height: 90%;
+    /* padding: 12px 20px; */
+    box-sizing: border-box;
+    border: 0;
+    background-color: #F2D5C0;
+    font-size: 16px;
+    resize: none;
+  }
+
+  .problem-image {
+    width: 25%;
+  }
+
+  .main-btn {
+    padding: 10px 15px;
+    margin: 10px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color:#000;
+    background-color: #F47D10;
+
+} 
