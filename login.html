@@ -50,10 +50,18 @@
                 <input type="password" placeholder="Enter your password here">
               </div>
               <div class="form-group">
-                <button type="submit">Sign In</button>
+                <button type="submit" id="submitButton">Sign In</button>
               </div>
             </div>
           </div>
     </section>  
+    <script>
+       document
+        .getElementById("submitButton")
+        .addEventListener("click", function () {
+          // Simulate redirect to product page (replace 'product.html' with your actual product page URL)
+          window.location.href = "product.html";
+        });
+    </script>
 </body>
 </html>
